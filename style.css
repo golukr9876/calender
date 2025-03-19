@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color: rgb(193, 189, 184);
+    height: 100%;
+    width: 100%;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+
+}
+
+#calender{
+    /* height: 40vh; */
+    width: 32.5vw;
+    border: 2px solid black;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 5vh;
+    border: 2px solid black;
+}
+header #partMonth{
+   margin-left: 100px;
+}
+
+header #year{
+    margin-right: 100px;
+}
+header i{
+    font-size: 2rem;
+}
+header i:hover {
+    color: rgb(33, 106, 242);
+}
+#daysname{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.day{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:4.5vw;
+    border: 1px solid black;
+}
+.week{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* height:  20vh; */
+}
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:4.5vw;  
+    border: 1px solid black;
+    height: 4vh;
+}
+.hd{
+ background-color: rgb(152, 235, 235);
+}
+.cd{
+    color: red;
+    background-color: rgb(91, 224, 87);
+}
